@@ -35649,7 +35649,7 @@ const ads = [
             switcheroo4();
             Rep += 4;
         }
-        else if((e.player_answers.includes(9085)) && (Cred < 6 && (e.noCounter == 31)){
+        else if((e.player_answers.includes(9085)) && (Cred < 6) && (e.noCounter == 31)){
             campaignTrail_temp.questions_json[31] = tunnel(6870);
             switcheroo4();
             Rep += 4;
